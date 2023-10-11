@@ -9,14 +9,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
-  awesome_dialog:
-    dependency: "direct main"
-    description:
-      name: awesome_dialog
-      sha256: "35a17da157ffb732dedf25a832dcf121fbbeccd1557b88a4113eb5dca3473a5b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -58,29 +50,13 @@ packages:
     source: hosted
     version: "1.0.6"
   dart_ipify:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: dart_ipify
       sha256: "3b70d589504126107e81ad0703d91394cc8e2039cb0a11ebd92b9b824a5e9561"
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
-  device_info_plus:
-    dependency: "direct main"
-    description:
-      name: device_info_plus
-      sha256: "86add5ef97215562d2e090535b0a16f197902b10c369c558a100e74ea06e8659"
-      url: "https://pub.dev"
-    source: hosted
-    version: "9.0.3"
-  device_info_plus_platform_interface:
-    dependency: transitive
-    description:
-      name: device_info_plus_platform_interface
-      sha256: d3b01d5868b50ae571cd1dc6e502fc94d956b665756180f7b16ead09e836fd64
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.0.0"
   fake_async:
     dependency: transitive
     description:
@@ -105,51 +81,11 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.4"
-  firebase_core:
-    dependency: "direct main"
-    description:
-      name: firebase_core
-      sha256: "95580fa07c8ca3072a2bb1fecd792616a33f8683477d25b7d29d3a6a399e6ece"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.17.0"
-  firebase_core_platform_interface:
-    dependency: transitive
-    description:
-      name: firebase_core_platform_interface
-      sha256: b63e3be6c96ef5c33bdec1aab23c91eb00696f6452f0519401d640938c94cba2
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.8.0"
-  firebase_core_web:
-    dependency: transitive
-    description:
-      name: firebase_core_web
-      sha256: e8c408923cd3a25bd342c576a114f2126769cd1a57106a4edeaa67ea4a84e962
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.8.0"
-  flare_flutter:
-    dependency: transitive
-    description:
-      name: flare_flutter
-      sha256: "99d63c60f00fac81249ce6410ee015d7b125c63d8278a30da81edf3317a1f6a0"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.2"
   flutter:
     dependency: "direct main"
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_downloader:
-    dependency: "direct main"
-    description:
-      name: flutter_downloader
-      sha256: bc13eb52ce81822a94f107b2ea0541b0e28be350f0c064dfbb5c66e95d7791f4
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.11.3"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -158,19 +94,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.3"
-  flutter_localizations:
-    dependency: "direct main"
-    description: flutter
-    source: sdk
-    version: "0.0.0"
-  flutter_screenutil:
-    dependency: "direct main"
-    description:
-      name: flutter_screenutil
-      sha256: "8cf100b8e4973dc570b6415a2090b0bfaa8756ad333db46939efc3e774ee100d"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.9.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -197,22 +120,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
-  intl:
-    dependency: transitive
-    description:
-      name: intl
-      sha256: "3bc132a9dbce73a7e4a21a17d06e1878839ffbf975568bc875c60537824b0c4d"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.18.1"
-  js:
-    dependency: transitive
-    description:
-      name: js
-      sha256: f2c445dce49627136094980615a031419f7f3eb393237e4ecd97ac15dea343f3
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.6.7"
   lints:
     dependency: transitive
     description:
@@ -245,16 +152,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
-  open_file:
-    dependency: "direct main"
-    description:
-      name: open_file
-      sha256: a5a32d44acb7c899987d0999e1e3cbb0a0f1adebbf41ac813ec6d2d8faa0af20
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.3.2"
   package_info:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: package_info
       sha256: "6c07d9d82c69e16afeeeeb6866fe43985a20b3b50df243091bfc4a4ad2b03b75"
@@ -293,46 +192,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.1"
-  permission_handler:
-    dependency: "direct main"
-    description:
-      name: permission_handler
-      sha256: "5749ebeb7ec0c3865ea17e3eb337174b87747be816dab582c551e1aff6f6bbf3"
-      url: "https://pub.dev"
-    source: hosted
-    version: "9.2.0"
-  permission_handler_android:
-    dependency: transitive
-    description:
-      name: permission_handler_android
-      sha256: a512e0fa8abcb0659d938ec2df93a70eb1df1fdea5fdc6d79a866bfd858a28fc
-      url: "https://pub.dev"
-    source: hosted
-    version: "9.0.2+1"
-  permission_handler_apple:
-    dependency: transitive
-    description:
-      name: permission_handler_apple
-      sha256: "99e220bce3f8877c78e4ace901082fb29fa1b4ebde529ad0932d8d664b34f3f5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "9.1.4"
-  permission_handler_platform_interface:
-    dependency: transitive
-    description:
-      name: permission_handler_platform_interface
-      sha256: "6760eb5ef34589224771010805bea6054ad28453906936f843a8cc4d3a55c4a4"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.12.0"
-  permission_handler_windows:
-    dependency: transitive
-    description:
-      name: permission_handler_windows
-      sha256: cc074aace208760f1eee6aa4fae766b45d947df85bc831cde77009cdb4720098
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.3"
   platform:
     dependency: transitive
     description:
@@ -349,24 +208,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.6"
-  progress_indicators:
-    dependency: "direct main"
-    description:
-      name: progress_indicators
-      sha256: "28cba16c2c1f37b14f3551c406e0d9b156fb2f3205d7b4e4153823b3abc9d56c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.0"
-  screen_retriever:
-    dependency: transitive
-    description:
-      name: screen_retriever
-      sha256: "6ee02c8a1158e6dae7ca430da79436e3b1c9563c8cf02f524af997c201ac2b90"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.9"
   shared_preferences:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: shared_preferences
       sha256: "81429e4481e1ccfb51ede496e916348668fd0921627779233bd24cc3ff6abd02"
@@ -421,14 +264,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.1"
-  simple_animations:
-    dependency: transitive
-    description:
-      name: simple_animations
-      sha256: cd8b4685de36a1d4bd7082d860415baf3772403402a8a022bd209cf856164386
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.2.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -514,22 +349,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.0.9"
-  win32_registry:
-    dependency: transitive
-    description:
-      name: win32_registry
-      sha256: "41fd8a189940d8696b1b810efb9abcf60827b6cbfab90b0c43e8439e3a39d85a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.2"
-  window_manager:
-    dependency: "direct main"
-    description:
-      name: window_manager
-      sha256: d812d3189d23465d2e94baa2505a4462b46dde4939012ff370711c6897d747ae
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.9"
   xdg_directories:
     dependency: transitive
     description:
@@ -540,4 +359,4 @@ packages:
     version: "1.0.3"
 sdks:
   dart: ">=3.1.2 <4.0.0"
-  flutter: ">=3.10.0"
+  flutter: ">=3.7.0"

@@ -47,6 +47,12 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
 
+  shared_preferences: ^2.0.13
+
+  # Store Packages
+  dart_ipify: ^1.1.1
+  package_info: ^2.0.2
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
